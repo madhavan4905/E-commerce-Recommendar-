@@ -1,25 +1,47 @@
-# E-commerce-Recommender-
-This project is a part of my internship with YBI Foundation.
+# Recommender System for E-Commerce
 
-The goal is to build a recommendation system that suggests products to users on an e-commerce platform based on their past activity.
+This project is part of the 45-day internship by YBI Foundation. It implements a simple recommender system using collaborative filtering techniques.
 
-## Technologies Used
+## 📌 Project Features
+- User-Item Collaborative Filtering
+- Item-Item Collaborative Filtering
+- Data visualization using Heatmap
+- Similarity score calculation using Cosine Similarity
+
+## 🧠 Technologies Used
 - Python
-- Pandas
-- Scikit-learn
-- Jupyter Notebook
+- Pandas, NumPy
+- Scikit-learn (cosine similarity)
+- Seaborn and Matplotlib (for data visualization)
 
-## Steps Covered
-1. Data Preprocessing
-2. Model Building using Collaborative Filtering
-3. Generating Recommendations
+## 📂 Dataset
+A simulated dataset is used for user-product purchase interaction.
 
-## How to Run
-- Open the Jupyter Notebook file
-- Run all the cells step by step
+## 🛠️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/madhavan4905/E-commerce-Recommender-system.git
+   ```
 
-## Output
-Top product recommendations for a selected user.
+2. Open the `.ipynb` file using Jupyter Notebook or Google Colab.
 
-## Report
-Project report is available in the PDF file named `Project_report_by_madhavan.pdf`.
+3. Run the cells step by step to see the recommendations.
+
+## 🖼️ Sample Output
+
+### Heatmap of User vs Product Interaction
+![Heatmap](assets/user_product_heatmap.png)
+
+### User Similarity Matrix (Output Snippet)
+```
+   1     2     3     4     5     6
+1  1.00  0.50  0.87  0.00  0.87  0.50
+2  0.50  1.00  0.50  0.50  0.50  0.00
+...
+```
+
+## 📃 Internship Credit
+This notebook was created as a part of an internship project under **YBI Foundation**.
+
+## 📜 License
+This project is open-sourced under the [MIT License](LICENSE).
