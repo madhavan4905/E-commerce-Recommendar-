@@ -12,7 +12,7 @@ To recommend products to users based on their purchase behavior using **User-Bas
 
 ## 🛠️ Technologies Used
 
-- Python 🐍  
+- Python  
 - Pandas  
 - Numpy  
 - Scikit-learn  
@@ -42,14 +42,14 @@ To recommend products to users based on their purchase behavior using **User-Bas
 
 Below are the heatmaps and similarity matrices generated:
 
-### ✅ User-Item Matrix
-![User Matrix](assets/user_matrix.png)
+### User × Product Heatmap
+![User-Item Matrix](assets/user_item_heatmap.png)
 
-### ✅ User Similarity Matrix
-![User Similarity](assets/user_similarity.png)
+### User-Similarity Matrix
+![User Similarity Matrix](assets/user_similarity_heatmap.png)
 
-### ✅ Item Similarity Matrix
-![Item Similarity](assets/item_similarity.png)
+### Item-Similarity Matrix
+![Item Similarity Matrix](assets/item_similarity_heatmap.png)
 
 ---
 
@@ -67,7 +67,7 @@ This project demonstrates the core idea of recommender systems using basic colla
 
 ---
 
-## ✍️ Author
+##  Author
 
 **Madhavan V**  
 Intern at YBI Foundation  
