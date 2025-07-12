@@ -22,4 +22,4 @@ The goal is to build a recommendation system that suggests products to users on 
 Top product recommendations for a selected user.
 
 ## Report
-Project report is available in the PDF file named `project_report.pdf`.
+Project report is available in the PDF file named `Project_report_by_madhavan.pdf`.
